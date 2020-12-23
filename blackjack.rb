@@ -67,7 +67,7 @@ puts "\nGet Ready to gamble #{name.green}!"
 player.name="#{name.green}"
 
 loop do
-    puts "(d)eal or (q)uit"
+    puts "(D)eal or (Q)uit"
     play = gets.chomp.downcase
     if play == "q"
         puts "See ya next time"
