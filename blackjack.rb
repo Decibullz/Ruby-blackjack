@@ -31,7 +31,7 @@ end
 class Deck
     def initialize
         @faces = [*(2..10), 'Jack', 'Queen', 'King', 'Ace']
-        @suits = ['Clubs', 'Spades', 'Hearts', 'Diamonds']
+        @suits = ['♣︎', '♠︎', '❤️', '♦︎']
         @cards = []
         @faces.each do |face|
             if face.class == Integer
