@@ -1,4 +1,4 @@
-# Ruby BLackJack
+# Ruby BlackJack
 
 ## To get  started download file and open in text editor of choice
 
